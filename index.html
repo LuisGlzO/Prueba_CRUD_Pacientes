@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test videos</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>Tabla de videos</header>
+    <table id="tabla-paciente">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Nombre Paciente</th>
+                <th>Edad</th>
+                <th>Sexo</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Ciudad de Origen</th>
+                <th>Fecha de Inscripción</th>
+                <th>Hospital de Origen</th>
+                <th>Nombre del tutor</th>
+                <th>Telefono del tutor</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    
+    
+    
+    <div>
+    <button id="anterior">Anterior</button>
+    <button id="siguiente">Siguiente</button>
+    </div>
+
+    <div id="seccionEditar">
+        <p>Seccion Agregar</p>
+    <table id="tablaEditar" name="datos">
+        <tr>
+            <td>nombre_completo</td><td><input type="text" name="nombre_completo_tF" id="nombre_completo_t"></td>
+        </tr>
+        <tr>
+            <td>edad</td><td><input type="text" name="edad_tF" id="edad_t"></td>
+        </tr>    
+        <tr>
+            <td>sexo</td><td><input type="text" name="sexo_tF" id="sexo_t"></td>
+        </tr>
+        <tr>
+            <td>fecha_de_nacimiento</td><td><input type="text" name="fecha_de_nacimiento_tF" id="fecha_de_nacimiento_t"></td>
+        </tr>
+        <tr>
+            <td>ciudad_de_origen</td><td><input type="text" name="ciudad_de_origentF" id="ciudad_de_origen_t"></td>
+        </tr>
+        <tr>
+            <td>fecha_de_inscripcion</td><td><input type="text" name="fecha_de_inscripcion_tF" id="fecha_de_inscripcion_t"></td>
+        </tr>
+        <tr>
+            <td>hospital_de_origen</td><td><input type="text" name="hospital_de_origen_tF" id="hospital_de_origen_t"></td>
+        </tr>
+        <tr>
+            <td>nombre_del_tutor</td><td><input type="text" name="nombre_del_tutor_tF" id="nombre_del_tutor_t"></td>
+        </tr>
+        <tr>
+            <td>telefono_del_tutor</td><td><input type="text" name="telefono_del_tutor_tF" id="telefono_del_tutor_t"></td>
+        </tr>
+    </table>
+
+    <div id=crearTabla>
+
+    </div>
+    
+    <button id="agregar">Agregar Paciente</button>
+    <button id="editar" >Editar</button>
+    </div>
+
+    
+    <script src="index.js"></script>
+    
+
+    
+</body>
+</html>
